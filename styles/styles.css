@@ -218,6 +218,251 @@
       text-align: center;
      padding: 60px 0px;
     }
+    .stories-title {
+      font-weight: bold;
+      font-size: 2.8rem;
+      padding: 50px 0px;
+      text-align: center;
+    
+    }
+    
+    .stories-big-card {
+    background-color: white;
+      border-radius: 16px;
+      max-width: 540px;
+    position: relative;
+      }
+    .stories-mini-cards{
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(2 , 1fr);
+    }
+    .stories-mini-card1{
+    background-color: white;	
+     border-radius: 16px;
+      max-width: 290px;
+      width: 100%;
+    position: relative;
+      }
+    .stories-mini-card2{
+    background-color: white;	
+     border-radius: 16px;
+      max-width: 290px;
+      width: 100%;
+    position: relative;
+      }
+    .stories-mini-card3{
+    background-color: white;	
+     border-radius: 16px;
+      max-width: 290px;
+      width: 100%;
+    position: relative;
+      }
+    .stories-mini-card4{
+    background-color: white;	
+     border-radius: 16px;
+      max-width: 290px;
+      width: 100%;
+    position: relative;
+      }
+    .stories-mini-card1-title {
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin: 35px;
+      padding: 15px;
+    }
+    
+    .stories-card1-text {
+      font-weight: medium;
+      font-size: 1rem;
+      color: rgba(102, 102, 102, 1);
+      padding: 20px 50px;
+    }
+    
+    .stories-pic {
+      border-top-left-radius: 16px;
+      border-top-right-radius: 16px;
+      width: 100%;
+    }
+    
+    .btn6 {
+      color: white;
+      font-weight: medium;
+      font-size: 1rem;
+      width: 175px;
+      height: 50px;
+      border: none;
+      border-radius: 50px;
+    position: absolute;
+      top: 315px;
+      left: 40px;
+      background-color: rgba(60, 216, 232, 1);
+    
+      
+    }
+    .btn7 {
+      color: white;
+      font-weight: medium;
+      font-size: 1rem;
+      width: 175px;
+      height: 50px;
+      border: none;
+      border-radius: 50px;
+    position: absolute;
+      top: 155px;
+      left: 34px;
+      background-color: rgba(149, 178, 38, 1);
+    
+      
+    }
+    .btn8 {
+      color: white;
+      font-weight: medium;
+      font-size: 1rem;
+      width: 175px;
+      height: 50px;
+      border: none;
+      border-radius: 50px;
+    position: absolute;
+      top: 155px;
+      left: 34px;
+      background-color: rgba(93, 88, 240, 1);
+    
+      
+    }
+    .btn9 {
+      color: white;
+      font-weight: medium;
+      font-size: 1rem;
+      width: 175px;
+      height: 50px;
+      border: none;
+      border-radius: 50px;
+    position: absolute;
+      top: 155px;
+      left: 34px;
+      background-color: rgba(149, 178, 38, 1);
+    
+      
+    }
+    .btn10 {
+      color: white;
+      font-weight: medium;
+      font-size: 1rem;
+      width: 175px;
+      height: 50px;
+      border: none;
+      border-radius: 50px;
+    position: absolute;
+      top: 155px;
+      left: 34px;
+      background-color: rgba(149, 178, 38, 1);}
+    .stories-text{
+      display: flex;
+      justify-content: space-between;
+      max-width: 1160px;
+      display: 100%;
+      margin: 0px auto;
+    }
+    .stories-mini-card1-title{
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 20px 40px;
+    }
+    .stories-mini-card2-title{
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 20px 40px;
+    }
+    .stories-mini-card3-title{
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 20px 40px;
+    }
+    .stories-mini-card4-title{
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 20px 40px;
+    }
+    
+    
+    .viewall-button{
+      text-align: center;
+      padding: 60px 0px;
+    }
+    .footer-logo-title{
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: white;
+    }
+    .footer-logo-text{
+      font-size: 1.25rem;
+      color: white;
+    }
+    
+    
+    .footer-links-title{
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: white;
+    }
+    .footer-links-items{
+      list-style: none;
+      padding-left: 0px;
+      
+    }
+    .footer-links-item{
+      font-weight: medium;
+      font-size: 1.25rem;
+      padding: 10px 0px;
+    
+    }
+
+    .footer-media-title{
+      font-weight: bold;
+      font-size: 1.625rem;
+      color: white;
+      padding: 30px 5px;
+    }
+    footer{
+      background-color: rgba(1, 172, 253, 1);
+      max-width: 1440px;
+      width: 100%;
+     margin: 0px auto;
+    
+    }
+    .footer-text{
+    max-width: 1070px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+    }
+    .footer-logo-text{
+     max-width: 400px;
+     padding: 20px 0px;
+      }
+    .footer-logo{
+      display: flex;
+    
+    }
+    .footer-media-icon{
+      padding: 5px;
+      
+    } 
+    a{
+      text-decoration: none;
+      color: white;
+    
+    }
+    
+    marquee{
+      font-weight: bold;
+      font-size: 2rem;
+    
+      padding: 30px 0;
+    }
+    
+    
     
   @media screen and (max-width: 576px) {
     .nav-anchor, .nav-btn, .nav-tile{
@@ -239,6 +484,34 @@
     .curriculum-text{
       flex-direction: column;
     }
+    .stories-big-card{
+      display: none;
+    }
+    .btn7{
+      top:90px ;
+      left: 20px;
+
+    }
+    .btn8{
+      top:90px ;
+      left: 20px;
+      
+    }
+    .btn9{
+      top:90px ;
+      left: 20px;
+      
+    }
+    .btn10{
+      top:90px ;
+      left: 20px;
+      
+    }
+    .footer-text{
+      flex-direction: column;
+    }
+
+
 
     
   }
